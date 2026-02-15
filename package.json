@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
     "name": "tirage-au-sort-backend",
     "version": "1.0.0",
@@ -25,7 +25,6 @@
         "nodemon": "^3.0.1"
     }
 }
-=======
 {
     "name": "tirage-au-sort-backend",
     "version": "1.0.0",
@@ -52,4 +51,3 @@
         "nodemon": "^3.0.1"
     }
 }
->>>>>>> 6315d164e6bfde5b0175e21720ab8006f1acf594
