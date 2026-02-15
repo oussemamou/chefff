@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require('dotenv').config();
 const app = require('./src/app');
 
@@ -24,7 +23,6 @@ process.on('SIGINT', () => {
         console.log('Serveur arrêté');
         process.exit(0);
     });
-=======
 require('dotenv').config();
 const app = require('./src/app');
 
@@ -50,5 +48,4 @@ process.on('SIGINT', () => {
         console.log('Serveur arrêté');
         process.exit(0);
     });
->>>>>>> 6315d164e6bfde5b0175e21720ab8006f1acf594
 });
