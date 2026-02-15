@@ -20,12 +20,10 @@ app.use(helmet());
 
 // Configuration CORS
 app.use(cors({
-    origin: process.env.NODE_ENV === 'production'
-        ? 'https://votre-domaine.com'
-        : ['http://localhost:5173', 'http://localhost:8080', 'http://localhost:3000'],
-    credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization']
+  origin: '*',  // ⚠️ À CHANGER en production par votre domaine spécifique
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 // Rate limiting
